@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="games Rating Website">
+  <title>Games - Games Ratings & Reviews</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Family games</h1>
+      <nav>
+        <ul>
+          <li><a href="#search">Search</a></li>
+          <li><a href="#games">games</a></li>
+          <li><a href="#top-rated">Top Rated</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="search" class="section">
+    <div class="container">
+      <h2>Search for like games</h2>
+      <input type="text" id="search-input" placeholder="Search for a games..." oninput="searchgames()">
+    </div>
+  </section>
+
+  <section id="games" class="section">
+    <div class="container">
+      <h2>Games</h2>
+      <div id="games-list" class="games-list">
+        
+      </div>
+    </div>
+  </section>
+  
+
+  
+
+  <footer>
+    <div class="container">
+      <p>&copy; Family games 2025</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
